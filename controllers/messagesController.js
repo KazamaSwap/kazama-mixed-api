@@ -1,3 +1,5 @@
+// const { ethers } = require("ethers");
+const { verifyTypedData } = require("ethers/lib/utils");
 const messageModel = require("../models/messageModel");
 const userModel = require("../models/userModel");
 const types = {
